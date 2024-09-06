@@ -1,0 +1,31 @@
+root/
+│
+├── android/             # Native Android files
+├── ios/                 # Native iOS files
+├── src/                 # Main source folder for the app
+│   ├── api/             # API integration, services for backend calls
+│   ├── components/      # Reusable components (UI elements like buttons, modals)
+│   ├── constants/       # Static values like colors, dimensions, strings
+│   ├── contexts/        # Context API, global state management
+│   ├── hooks/           # Custom hooks for logic separation
+│   ├── i18n/            # Multilingual support (translations)
+│   ├── navigation/      # Navigation stack (React Navigation setup)
+│   ├── screens/         # All screens for different features
+│   │   ├── Login/       # Aadhaar-based login
+│   │   ├── Dashboard/   # Main dashboard after login
+│   │   ├── Entitlement/ # Search and view entitlement, sales history, etc.
+│   │   ├── Sales/       # Sale of day and stock reports
+│   │   ├── Notifications/ # Notification management
+│   │   ├── GeoFence/    # Geo-fencing and location management
+│   │   ├── IssueTracking/ # Track and report issues
+│   ├── services/        # Business logic like authentication, API calls
+│   ├── store/           # Redux or any other global state management
+│   ├── styles/          # Global styles (typography, layout)
+│   ├── utils/           # Utility functions (helper methods, formatting)
+│
+├── assets/              # Images, icons, fonts, etc.
+│
+├── App.js               # Entry point of the application
+├── package.json         # Package information and dependencies
+├── .env                 # Environment variables (API keys, URLs)
+└── README.md            # Project documentation
